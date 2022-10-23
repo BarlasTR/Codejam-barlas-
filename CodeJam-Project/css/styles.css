@@ -1,0 +1,103 @@
+/* renkleri kısa değer halinde almak için */
+:root{
+    --renk1: rgb(0, 0, 0);
+    --renk2: rgba(255, 0, 0, 0.288);
+    --renk3: rgb(221, 213, 213);
+    --renk4: rgb(255, 255, 255);
+    --renk5: rgb(240, 173, 78);
+}
+/* scrollbar renklendirme ve küçültme */
+::-webkit-scrollbar {
+    background: var(--renk1);
+    width: 14px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--renk4);
+    height: 15px;
+}
+
+
+/* Navbar arka plan rengi */
+.ust-menu{
+    background-color: var(--renk1);
+}
+.nav-item:hover{
+    border: 2px solid var(--renk5);
+}
+.aktif{
+    border: 2px solid var(--renk5);
+}
+
+/* Ana Sayfa kısmında ki resmi ve açıklamanın rengini değiştirme*/
+.ana-sayfa-img{
+    position: absolute;
+    right: 15%;
+    top: 5%;
+}
+.ana-sayfa-aciklama{
+    color: var(--renk3);
+}
+
+/* Hakkımda yeri ve resmini yuvarlağa göre uyarlama */
+.hakkimda-bölümü{
+    position: absolute;
+    top: 55%;
+}
+.hakkimda-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    right: 23%;
+    bottom: 2%;
+}
+
+/* Yeteneklerim kısmını büyütmek için */
+.skill-bar{
+    width: 600px;
+}
+
+/* Hakkımda kısmının arka planını siyah yapar */
+.list-group-item-bg{
+    background-color: var(--renk1);
+}
+.list-group-item{
+    border: 0 none;
+}
+.list-group{
+    width: 500px;
+}
+
+/* Copyright bölgesi */
+.copyright{
+    position: absolute;
+    right: 15%;
+} 
+
+/* Beyaz tema classları */
+.whitebody{
+    background-color: var(--renk4);
+}
+.ust-menu-white{
+    background-color: white;
+}
+.black-text-color{
+    color: var(--renk1);
+}
+.black-white-text-color{
+    color: var(--renk1);
+}
+.list-group-item-wbg{
+    background-color: var(--renk4);
+}
+
+
+
+/*Siyah tema classları*/
+.blackbody{
+    background-color: var(--renk1);
+}
+.ust-menu-black{
+    background-color: var(--renk1);
+}
